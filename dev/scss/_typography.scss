@@ -1,0 +1,15 @@
+a {
+  color: $f_orange;
+
+  &:hover, &:focus{
+    color: $f_blue;
+    text-decoration: none;
+  }
+}
+
+h1, h2, .h1, .h2{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 27px;
+  font-weight: bold;
+}

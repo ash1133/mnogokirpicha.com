@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap"
+          rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="build/css/jquery.fancybox.css"/>
+    <link type="text/css" rel="stylesheet" href="build/css/slick.css"/>
+    <link type="text/css" rel="stylesheet" href="build/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="build/css/template_styles.css"/>
+    <title>Title</title>
+</head>
+<body>
+
+<header class="b-header container mb-lg-3 mb-5 cloud">
+    <div class="row align-items-center">
+        <div class="col-lg-4 pr-5 mb-3 mb-lg-0">
+            <div class="b-header__city">
+                <span>Выберите город:</span>
+                <a class="modal-form--js" href="" data-href=".select-city--js">Тула</a>
+
+                <div class="modal-form call-form select-city--js" style="display: none;">
+                    <div class="modal-form__close close-modal--js">
+                        <i class="far fa-times"></i>
+                    </div>
+                    <div class="call-form__header">Выберите город</div>
+                    <div class="modal-tip"></div>
+                    <ul>
+                        <li><a href="https://domodedovo.mnogokirpicha.com/">Домодедово</a></li>
+                        <li><a href="https://kashira.mnogokirpicha.com/">Кашира</a></li>
+                        <li><a href="https://podolsk.mnogokirpicha.com/">Подольск</a></li>
+                        <li><a href="https://serpuhov.mnogokirpicha.com/">Серпухов</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://stupino.mnogokirpicha.com/">Ступино</a></li>
+                        <li>Тула</li>
+                        <li><a href="https://chehov.mnogokirpicha.com/">Чехов</a></li>
+                        <li><a href="https://sherbinka.mnogokirpicha.com/">Щербинка</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="d-none d-lg-block" href="/">
+                <img class="img-fluid" src="build/img/logo_akont.png" alt="">
+            </a>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row align-items-center">
+
+                <div class="col-lg-7">
+                    <a class="b-header__phone" href="tel:+74872385660">+7 (4872) 38-56-60</a>
+                    <a class="b-header__phone" href="tel:"></a>
+                    <div class="mb-4">300001, Россия, г. Тула, ул. Каракозова, д.2<br> Режим работы: Пн-Пт с
+                        9:00 до 19:00
+                    </div>
+                    <p class="b-header__callback" data-href=".call-form--js">Заказать звонок</p>
+                    <div class="clearfix"></div>
+                    <a class="b-header__email" href="mailto:info@mnogokirpicha.com">info@mnogokirpicha.com</a>
+                </div>
+
+                <div class="col">
+                    <a class="b-header__link" target="_blank" download="" href="/docs/price.xlsx"
+                       onclick="ym(52958293, 'reachGoal', 'price-kontakt'); return true;">Актуальный прайс-лист</a>
+                    <div class="b-header__link modal-form--js" data-href=".call-form--js"
+                         onclick="ym(52958293, 'reachGoal', 'open_question'); return true;">Заказать в 1 клик
+                    </div>
+
+                    <ul class="b-header__menu">
+                        <li><a href="sertifikatyi">Сертификаты</a></li>
+                        <li><a href="o-kompanii">О компании</a></li>
+                        <li><a href="kontaktyi">Контакты</a></li>
+                        <li><a href="otzyivyi">Отзывы</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="cloud mb-lg-5 container">
+    <div class="d-lg-none d-block navbar-brand">
+        <div class="headerCity"><span>Выберите город:</span><a class="modal-form--js" href=""
+                                                               data-href=".select-city--js">Тула</a>
+            <div class="modal-form call-form select-city--js">
+                <div class="modal-form__close close-modal--js"><i class="far fa-times"></i></div>
+                <div class="call-form__header">Выберите город</div>
+                <div class="modal-tip"></div>
+                <ul>
+                    <li><a href="https://domodedovo.mnogokirpicha.com/">Домодедово</a></li>
+                    <li><a href="https://kashira.mnogokirpicha.com/">Кашира</a></li>
+                    <li><a href="https://podolsk.mnogokirpicha.com/">Подольск</a></li>
+                    <li><a href="https://serpuhov.mnogokirpicha.com/">Серпухов</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://stupino.mnogokirpicha.com/">Ступино</a></li>
+                    <li>Тула</li>
+                    <li><a href="https://chehov.mnogokirpicha.com/">Чехов</a></li>
+                    <li><a href="https://sherbinka.mnogokirpicha.com/">Щербинка</a></li>
+                </ul>
+            </div>
+        </div>
+        <a class="">
+            <img src="/assets/images/logo_akont.png" alt="">
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Главная</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle nav-link" href="#">Строительные материалы</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle nav-link" href="nerudnyie-materialyi" >Нерудные материалы</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle nav-link" href="uslugi">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="czenyi">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dostavka-i-oplata">Доставка и оплата</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle nav-link" href="poleznaya-informacziya">Полезная информация</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<section class="cloud my-3 cloud__pluses container">
+    <p class="text-center h2">Преимущества компании</p>
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="cloud__pluses__container">
+                <div class="cloud__pluses__img"><img src="data:image/png;base64,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"></div>
+                <div class="cloud__pluses__title">География</div>
+                <div class="cloud__pluses__description">Работаем в 6 областях страны</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="cloud__pluses__container">
+                <div class="cloud__pluses__img"><img src="data:image/png;base64,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"></div>
+                <div class="cloud__pluses__title">Автопарк</div>
+                <div class="cloud__pluses__description">Более 40 самосвалов ежедневно доставляет нашу продукцию</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="cloud__pluses__container">
+                <div class="cloud__pluses__img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAACn0lEQVR4nO3dvW4TQRiF4TOIzkKiQ0pq6rSIXBzkbkKBRMkNRCJlrgJDlMKWSPul8CLZsyuv7ZnxHsfv07H22rP7Zrw/SYjUQER8jIjvEbGMvmVEfIuIyxbvXcOpj39DtzFPAxuSe3TcqFMff0/3lbWr26nHm5t6/Kn2C0bEUtK7HZ++SCm9rz2GElOPv0WQ2HiDlNI+j09t6vG/qfliKEcQMwQx83ZoYURcSbqR9EnSh5YDyD+TT80B459Lupf0JaX0kD/YOyB1Me4kzQ4aYf4GIwdFdw3H/0/SdR5l6CPrRpViYKuZpK/5wqEZMlfFjylmyFZ/U0ob+3ooSNF59tTn8aVaj39sfc6yzBDEDEHMtAiyXP9Hfns0e+6iwfuXmnT8LYL8bPTcY/Ea/8hXxC7rX8bqmzdjHiPiosU2lGg9/r33b2mQ7jUuIuI2IhYDG7LoHrOL8V/L8Y/t3+rXIdhubP9ylmWGIGYIYoYgZghiZvA7husOPfXFYZghZghihiBmRo8hXKnXNXZMZoaYIYgZgpghiBmCmCGIGYKYGb0O2de53fviN6heOYKYIYiZ6seQ3K6fsYf+tMvU69XGDDFDEDMEMUMQMwQxQxAzBDFDEDMEMdP8Sr3gl35OYr3amCFmCGKGIGa421u4Xm3MEDMEMUMQMwQxQxAzBDFDEDMEMUMQM9ztLVyvNmaIGYKYIYgZ7vYWrlcbM8QMQcwQxAxBzBDEDEHMEMQMQcwQxAx3ewvXq40ZYoYgZghipvoxhP/FtAwzxAxBzBDEDEHMEMQMQcwQxMzQdcgfrf2Be5d7PK/U73zB0Az5dYSBYOU+XzD0lz6vJN1Jmh1jRGfsWdLnlNLD+sLeDOmecC3ph6T5ccZ2VuZa7dteDAAASrwAm6r16M1DElAAAAAASUVORK5CYII="></div>
+                <div class="cloud__pluses__title">История</div>
+                <div class="cloud__pluses__description">Работаем на рынке поставок с 2010 года</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="cloud__pluses__container">
+                <div class="cloud__pluses__img"><img src="data:image/png;base64,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"></div>
+                <div class="cloud__pluses__title">Логистика</div>
+                <div class="cloud__pluses__description">поставляем нерудные материалы напрямую с карьеров</div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4">
+            <div class="cloud__pluses__container">
+                <div class="cloud__pluses__img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAFU0lEQVR4nO2d3YtVVRjGnzVaYRGZZDRQUllWCNIHUZY3dVGIcxF1IRUpZAx1IRHdVUTUVRdSllSUIfYfGBFd9CFh9C1pNaL0QUxkRlaOmUiOvy72mWmfdb72mbO2+93j+4Nzsffs9a5nvc+svT72PjMBuEvSq5IWyKmSnyWNBmC/pAuqVuNIksYDQNUqnP8ZqlqA08zc+EQIIVQh5FQlvkN5DzGGG2IMN8QYbogx3BBjuCHGcEOM4YYYww0xhhtiDDfEGG6IMdwQY7Ts9g7KqfZ8JfXuuPcQY7ghxnBDjJF8DPEnjoPhPcQYbogx3BBjuCHGcEOM4Sv1AfGV+izHDTGGG2IMX6kbw3uIMdwQY7ghxnBDjOGGGMNX6gPiK/VZjhtiDDfEGL5SN4b3EGO4IcZwQ4zhhhij9oYAc4HFwMKqtSSBiKr1FAVYAGwC/snJ/w5YU7W2fmjJfx0NAS4C9sXac7xQtcaixMKTr0NSA5wvaUTSEkmTksYkrZd0eZdi64FDkvZLWiTpqKQdkraHECbLVTwglnsI8CAw0aUnTPED8GeB674Ellbdrjwt+bdqCDBaIMEAqxvXnwm8W+D6X4ALq27fFLUwBJhPsZ6xLSq3BDhaoNxrVbUtpi6G3B/JOgDcC9wAbAA+AJ4AzmpT9nrgdeAd4CFgOfByFO9vwMSUvy6GPB/JGkkQ870o5iUptA5KnH8TvyVtiGd/Ywli7omOTbbdlCggAPdJuiP60RUJwl8cHb+CsRmXJDvTXrItkK2xngbLEsTf2CbuYWBlCv0D6GrOvyFDnulgxtZE8ReSTQ5iJoDFKeqYoS57hgDnAcciKW8BIyQc54Bh4DHgYFTX5lR1zECTSUPujmR8D5xWYn23RfX9VVZdBbQ0YWVQj5M/FkL4t8T63i8x9kBYMWRvdLwcOLuMioA5kh6JTn9SRl0zwsgta4jW7fQdwDmJ61kG7I3qOQHcnrKePjXZG0MawlY1kpPn8cR1vB23F9iQso4ZaLJpSENcvFbYkjj+zij+RqDS98ji/FsZQ6a4MjrenTj+N9HxkRCCif27aaz0EGAecDwn5Xfa7OYOWMfSqLlfpYw/Q01me8hlkubkjr8OIRxJWUEI4VtJx3KnLk0ZPwWWDDkaHV8NDKesALhH0hm5UxMp46fA0ksOPyr713FTj1fnS9oJvKnsZYUtIYSf+g0KrJJ0i6SrJMUbiR/OXG5JWBlDGloejfXkOEif2+XA013iHQduLqstfWhszr8xQ4ZofdyaZ1vvKNOxhoHJLrFWl9mWopg2ZArg1g5J/JVs62PqunnAncADwLUFY5hpp1QTQ6RWoTmeBU4n2wbZkzt/AniR7LnHImB7HQ1p+U+fVr4B1SNpk2qeIvfisKSmzUqr7bQ07e2HfsyQpKdKUVECdTLkQIfzByV93qXcS5KeSy+nJOpybyWbNW0i2z6fAHYBT5J9LSEAa4FPyb6ecIjsRbmVneJV2bY8PceQqojv6anHtl7xrOShTresU4IhZdsVjg3GhySNShqvWomjcUmjJubi7TjZY4gVfAwxhhtiDDfEGG6IMdwQY9TaELIHWuuA3Y3POmy9uDF76LX3BFwDfNRmz+sL4MZ+4zk96JRA4FyyNw6Px9fkmATeIPcHadyQAWmT5ACsAX7rYkTMH8DDwBw3ZEDaJPezDkmfBDY3Pp1eamgpW3X7akexDsBO4KZcmeuAj4sUrLJttaRHPqdvRW3KFbq1VdGmWtMhjyeIBusu5bsO/iejDbMKWr9R1XY6WyBOu+nxvjI0z2qAFWSLvV0MuOCjeQG5C1iRUmtK/gOXylrqS7TjAAAAAABJRU5ErkJggg=="></div>
+                <div class="cloud__pluses__title">Гарантия</div>
+                <div class="cloud__pluses__description">качество гарантируем сертификатами, соблюдение объема поставки - своей репутацией</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cloud my-3 container">
+    <div class="row">
+        <div class="col-12">
+            <p class="h2">Популярные товары</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <a class="prod_grid__link" href="nerudnyie-materialyi/shheben/izvestnyakovyij-shheben/izvestnyakovyij-shheben-frakczii-20-40" title="Известняковый щебень фракции 20-40">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/granit.eda26524a495da9c44bd8b2e514851131.jpg" title="Известняковый щебень фракции 20-40" alt="Известняковый щебень фракции 20-40 в Туле" class="prod_grid__image">
+                    <div class="page_banner__action">
+                        <div class="page_banner__action_hit">Хит</div>
+                    </div>
+                </div>
+                <div class="prod_grid__name">Известняковый щебень фракции 20-40</div>
+                <div class="prod_grid__info">Цена с доставкой <br>
+                    <span class="prod_grid__price--green">от 910 ₽/м<sup>3</sup></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <a class="prod_grid__link" href="nerudnyie-materialyi/shheben/izvestnyakovyij-shheben/izvestnyakovyij-shheben-frakczii-20-40" title="Известняковый щебень фракции 20-40">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/granit.eda26524a495da9c44bd8b2e514851131.jpg" title="Известняковый щебень фракции 20-40" alt="Известняковый щебень фракции 20-40 в Туле" class="prod_grid__image">
+                    <div class="page_banner__action">
+                        <div class="page_banner__action_hit">Хит</div>
+                    </div>
+                </div>
+                <div class="prod_grid__name">Известняковый щебень фракции 20-40</div>
+                <div class="prod_grid__info">Цена с доставкой <br>
+                    <span class="prod_grid__price--green">от 910 ₽/м<sup>3</sup></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <a class="prod_grid__link" href="nerudnyie-materialyi/shheben/izvestnyakovyij-shheben/izvestnyakovyij-shheben-frakczii-20-40" title="Известняковый щебень фракции 20-40">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/granit.eda26524a495da9c44bd8b2e514851131.jpg" title="Известняковый щебень фракции 20-40" alt="Известняковый щебень фракции 20-40 в Туле" class="prod_grid__image">
+                    <div class="page_banner__action">
+                        <div class="page_banner__action_hit">Хит</div>
+                    </div>
+                </div>
+                <div class="prod_grid__name">Известняковый щебень фракции 20-40</div>
+                <div class="prod_grid__info">Цена с доставкой <br>
+                    <span class="prod_grid__price--green">от 910 ₽/м<sup>3</sup></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <a class="prod_grid__link" href="nerudnyie-materialyi/shheben/izvestnyakovyij-shheben/izvestnyakovyij-shheben-frakczii-20-40" title="Известняковый щебень фракции 20-40">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/granit.eda26524a495da9c44bd8b2e514851131.jpg" title="Известняковый щебень фракции 20-40" alt="Известняковый щебень фракции 20-40 в Туле" class="prod_grid__image">
+                    <div class="page_banner__action">
+                        <div class="page_banner__action_hit">Хит</div>
+                    </div>
+                </div>
+                <div class="prod_grid__name">Известняковый щебень фракции 20-40</div>
+                <div class="prod_grid__info">Цена с доставкой <br>
+                    <span class="prod_grid__price--green">от 910 ₽/м<sup>3</sup></span>
+                </div>
+            </a>
+        </div>
+        <div class="col-12 text-right">
+            <a href="/populyarnyie-tovaryi" class="page_banner__btn d-inline-block">Все популярные товары</a>
+        </div>
+    </div>
+</section>
+
+<section class="cloud my-3 container">
+    <p class="h1">Отзывы</p>
+    <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6">
+            <div class="resp__container">
+                <div class="resp__img">
+                    <img src="build/img/punx1lvzux.jpg" alt="">
+                </div>
+                <div class="resp__name">
+                    Максим Филиппов
+                    <div class="resp__date">
+                        11.07.2020
+                    </div>
+                </div>
+                <div class="resp__text">
+                    <p>Песок оказался очень чистый и годный под цементный раствор. Хотел заказать и его, но мне подсказали, что так будет дешевле. Удивился и поблагодарил за такую искренность.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="resp__container">
+                <div class="resp__img">
+                    <img src="build/img/s1200 (1).jpg" alt="">
+                </div>
+                <div class="resp__name">
+                    Андрей Мосляков
+                    <div class="resp__date">
+                        30.06.2020
+                    </div>
+                </div>
+                <div class="resp__text">
+                    <p>Щебенка чистая и очень качественная. Мусора нет и с весом не обманывают. Залил бетон под фундамент себе!</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="resp__container">
+                <div class="resp__img">
+                    <img src="build/img/s1200.jpg" alt="">
+                </div>
+                <div class="resp__name">
+                    Александр Бугров
+                    <div class="resp__date">
+                        12.05.2020
+                    </div>
+                </div>
+                <div class="resp__text">
+                    <p>Заказывал облицовочный кирпич на частный 2-х этажный дом. Доставили на следующий день, все цело и цена лучше, чем у других компаний.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-right"><a href="/otzyivyi" class="callback_btn d-inline-block">Все отзывы</a></div>
+    </div>
+</section>
+
+<section class="cloud my-3 container">
+    <p><img alt="Доставка стройматериалов в Туле" height="350" src="build/img/delivery_1.jpg" style="float:right" width="467"></p>
+
+    <p>Торгово-строительная компания «МНОГО КИРПИЧА» предлагает предприятиям и индивидуальным предпринимателям, специализирующимся на промышленном, гражданском, дорожном строительстве и землеустройстве купить качественные инертные материалы по самым низким в Тульском регионе ценам. Продукция реализуется с доставкой на объект в точно оговоренное с заказчиком время.</p>
+
+    <p>Чтобы правильно выбрать сыпучие материалы для покупки, важно учесть следующие параметры:</p>
+
+    <ul>
+        <li>Назначение. Чем большие нагрузки будет испытывать конструкция, тем большими характеристиками плотности и прочности должен обладать стройматериал.</li>
+        <li>Фракция. Эта характеристика так же обеспечивает надежность конструкции или объекта. Крупный щебень станет прекрасной основой для автомагистрали, 5-миллиметровый – украсит дорожки парка.</li>
+        <li>Радиоактивность. Для строительства можно использовать второй из двух классов.</li>
+        <li>Морозостойкость.</li>
+    </ul>
+
+    <h2>Цены на инертные материалы</h2>
+
+    <p>Мы - официальные представители производителей сыпучих материалов, поэтому гарантируем минимальные цены. Стоимость указана на минимальный объем поставки – 10 кубометров. Актуальная цена рассчитывается при поступлении заявки, она корректируется с учетом объема заказа. Мы принимаем оплату за инертные материалы любыми современными способами, включая электронные деньги.</p>
+
+    <h2>Сыпучие материалы с доставкой</h2>
+
+    <p>Доставка выполняется по Тульской и Московской областям. Собственный автопарк, укомплектованный грузовыми автомобилями различной тоннажности и погрузочно-разгрузочной техникой. Благодаря этому, мы можем выполнять все работы оперативно и с наименьшими расходами для заказчика.</p>
+
+    <p>Компания «МНОГО КИРПИЧА» - надежный и ответственный поставщик. Нашим клиенты получают выгодные условия сотрудничества:</p>
+
+    <ul>
+        <li>мы предлагаем только высокое качество, подтверждаемое сертификатам и соответствием ГОСТ;</li>
+        <li>максимально низкие цены на сыпучие материалы в Тульском и Московском регионе;</li>
+        <li>мы работаем без выходных и праздников, возможны ночные смены;</li>
+        <li>мы строго соблюдаем сроки по договору;</li>
+        <li>постоянные клиенты включаются в бонусную программу и обслуживаются на специальных условиях;</li>
+        <li>мы можем комплексно поставлять стройматериалы на объект или строительную площадку.</li>
+    </ul>
+
+</section>
+
+<section class="cloud my-3 container">
+    <div class="row">
+        <div class="col-12">
+            <p class="h2">Полезные статьи</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <a class="prod_grid__link" href="poleznaya-informacziya/stati/xarakteristiki-gornogo-peska" title="Характеристики горного песка" alt="Характеристики горного песка">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/Brickie-Sand.eda26524a495da9c44bd8b2e514851131.jpg" title="Характеристики горного песка" alt="Характеристики горного песка в Туле" class="prod_grid__image">
+                </div>
+                <div class="prod_grid__name">Характеристики горного песка</div>
+                <div class="prod_grid__text"></div>
+
+                <div class="prod_grid__date">22 июля 2019</div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <a class="prod_grid__link" href="poleznaya-informacziya/stati/sheben-v-tule" title="Щебень в Туле" alt="Щебень в Туле">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/XXXL.eda26524a495da9c44bd8b2e514851131.jpg" title="Щебень в Туле" alt="Щебень в Туле" class="prod_grid__image">
+                </div>
+                <div class="prod_grid__name">Щебень в Туле</div>
+                <div class="prod_grid__text"></div>
+
+                <div class="prod_grid__date">27 декабря 2019</div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <a class="prod_grid__link" href="poleznaya-informacziya/stati/kak-dobyvaetsya-gornyj-pesok" title="Как добывается горный песок" alt="Как добывается горный песок">
+                <div class="prod_grid__wimg">
+                    <img src="build/img/073b6c37c9b1b9b3ff06a8e73e428491.eda26524a495da9c44bd8b2e514851131.jpg" title="Как добывается горный песок" alt="Как добывается горный песок в Туле" class="prod_grid__image">
+                </div>
+                <div class="prod_grid__name">Как добывается горный песок</div>
+                <div class="prod_grid__text"></div>
+
+                <div class="prod_grid__date">27 декабря 2019</div>
+            </a>
+        </div>
+        <div class="col-12 text-right pt-4">
+            <a href="/poleznaya-informacziya/stati" class="page_banner__btn d-inline-block">Все статьи</a>
+        </div>
+    </div>
+</section>
+
+<section class="cloud my-3 container" id="footerForm">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <p class="text-center h1">Оставьте заявку или задайте вопрос!</p>
+            <div data-form="">
+                <div class="modal-tip"></div>
+                <form class="ajax-form" method="post" action="/assets/ajax/ajax.php">
+                    <input type="hidden" name="ajax_action" value="call">
+                    <div class="call-form__inputs">
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <div class="call-form__input">
+                                    <p class="mb-2">Имя *</p>
+                                    <div class="call-form__input__icon">
+                                        <i class="fas fa-user"></i>
+                                        <input placeholder="Имя *" class="call-form__input-text" type="text" name="callback_name" required="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="call-form__input">
+                                    <p class="mb-2">Телефон *</p>
+                                    <div class="call-form__input__icon">
+                                        <i class="fas fa-phone"></i>
+                                        <input placeholder="Телефон *" class="phoneMask call-form__input-text" type="text" name="callback_phone" required="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="call-form__input">
+                                    <p class="mb-2">Тема заявки / Товар</p>
+                                    <div class="call-form__input__icon">
+                                        <i class="fas fa-question"></i>
+                                        <input placeholder="Телефон *" class="call-form__input-text" type="text" name="callback_page" required="" value="Главная">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg">
+                                <div class="call-form__input">
+                                    <p class="mb-2">Сообщение *</p>
+                                    <textarea placeholder="Сообщение" class="call-form__input-text" name="callback_message" cols="30" rows="9"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-auto pt-4 mt-1">
+                                <div class="call-form__input">
+                                    <div class="g-recaptcha" data-sitekey="6LcmSd0ZAAAAAKerZkPRPwYji-itQK3VYRpsjpYq"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcmSd0ZAAAAAKerZkPRPwYji-itQK3VYRpsjpYq&amp;co=aHR0cHM6Ly9tbm9nb2tpcnBpY2hhLmNvbTo0NDM.&amp;hl=ru&amp;v=qc5B-qjP0QEimFYUxcpWJy5B&amp;size=normal&amp;cb=r98ezhvata5h" width="304" height="78" role="presentation" name="a-avsclpa7h891" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <p>Отправляя заявку, вы принимаете <a href="/politika-konfidenczialnosti" trget="_blank">Политику конфиденциальности</a> об обработке персональных данных</p>
+                                <input class="callback_btn call-form__submit" type="submit" value="Отправить" onclick="ym(52958293, 'reachGoal', 'question'); return true;">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="container mt-3">
+    <div class="dark_bg">
+        <div class="footer__nav">
+            <a class="footer__links" href="stroitelnyie-materialyi/kirpich">Кирпич</a>
+            <a class="footer__links" href="nerudnyie-materialyi/shheben">Щебень</a>
+            <a class="footer__links" href="nerudnyie-materialyi/shheben/granitnyij-shheben">Гранитный щебень</a>
+            <a class="footer__links" href="stroitelnyie-materialyi/kirpich/obliczovochnyij-kirpich">Облицовочный кирпич</a>
+            <a class="footer__links" href="nerudnyie-materialyi/pesok/pesok-gornyij">Песок горный</a>
+            <a class="footer__links" href="nerudnyie-materialyi/pesok/rechnoj-pesok">Речной песок</a>
+            <a class="footer__links" href="nerudnyie-materialyi/pesok/pesok-seyanyij">Песок сеяный</a>
+            <a class="footer__links" href="nerudnyie-materialyi/pesok/pesok-mytyj">Песок мытый</a>
+            <a class="footer__links" href="nerudnyie-materialyi/beton/beton-izvestnyakovyij-v15-(m200)">Известняковый бетон М 200 (В 15)</a>
+            <a class="footer__links" href="nerudnyie-materialyi/beton/beton-izvestnyakovyij-v20-(m250)">Известняковый бетон М 250 (В 20)</a>
+            <a class="footer__links" href="nerudnyie-materialyi/beton/beton-izvestnyakovyij-v22,5-(m300)">Известняковый бетон М 300 (В 22,5)</a>
+            <a class="footer__links" href="nerudnyie-materialyi/beton/beton-izvestnyakovyij-v25-(m350)">Известняковый бетон М 350 (В 22,5)</a>
+            <a class="footer__links" href="nerudnyie-materialyi/beton/beton-izvestnyakovyij-v30-(m400)">Известняковый бетон М 400 (В 30)</a>
+            <a class="footer__links" href="nerudnyie-materialyi/shheben/izvestnyakovyij-shheben">Известняковый щебень</a>
+            <a class="footer__links" href="stroitelnyie-materialyi/kirpich/stroitelnyij-kirpich">Строительный кирпич</a>
+            <a class="footer__links" href="stroitelnyie-materialyi/kirpich/ogneupornyij-kirpich">Огнеупорный кирпич</a>
+            <a class="footer__links" href="stroitelnyie-materialyi/kirpich/stroitelnyie-bloki">Строительные блоки</a>
+            <a class="footer__links" href="stroitelnyie-materialyi">Строительные материалы</a>
+            <a class="footer__links" href="nerudnyie-materialyi/pesok">Песок</a>
+            <a class="footer__links" href="nerudnyie-materialyi/shheben/shlakovyij-shheben">Шлаковый щебень</a>
+            <a class="footer__links" href="nerudnyie-materialyi">Нерудные материалы</a>
+            <a class="footer__links" href="czenyi">Цены</a>
+
+        </div>
+        <div class="decor_line"></div>
+
+        <div class="small_container">
+
+            <div class="row center ft_contacts">
+                <div class="col-md-6 m20">
+                    <i class="fal fa-phone ft_contacts__icon"></i>
+                    <a href="tel:+74872385660" class="ft_contacts__link">+7 (4872) 38-56-60</a>
+                </div>
+                <div class="col-md-6 m20">
+                    <i class="fal fa-envelope ft_contacts__icon"></i>
+                    <a href="mailto:info@mnogokirpicha.com" class="ft_contacts__link">info@mnogokirpicha.com</a>
+                </div>
+                <div class="col-md-12 m20">300001, Россия, г. Тула, ул. Каракозова, д.2</div>
+                <div class="col-md-12 m20">Режим работы: Пн-Пт с 9:00 до 19:00</div>
+                <div class="col-md-12 m20">Заполняя любую форму на сайте, вы соглашаетесь с <a class="politik" href="politika-konfidenczialnosti">политикой конфиденциальности</a></div>
+                <a class="site_map_link  m20" href="/sitemap">Карта сайта</a>
+                <div class="col-md-12">2021 «МНОГО КИРПИЧА». Строительные сыпучие материалы с доставкой.</div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+<script type="text/javascript" src="build/js/jquery.min.js"></script>
+<script type="text/javascript" src="build/js/popper.min.js"></script>
+<script type="text/javascript" src="build/js/slick.min.js"></script>
+<script type="text/javascript" src="build/js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="build/js/scripts.min.js"></script>
+</body>
+</html>

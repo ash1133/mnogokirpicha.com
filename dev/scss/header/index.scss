@@ -1,0 +1,70 @@
+.b-header{
+  margin: 40px auto;
+}
+
+.b-header__city{
+  margin-bottom:15px;
+}
+
+.b-header__phone,
+.b-header__phone:hover,
+.b-header__phone:focus{
+  color:$f_default;
+  font-size: 31px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 700;
+}
+
+.b-header__callback{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  color: $f_blue;
+  border-bottom: 1px dashed $f_blue;
+  cursor: pointer;
+  transition: .3s;
+  clear: both;
+
+  &:hover, &:focus {
+    color: $f_orange;
+    border-color: $f_orange;
+  }
+}
+
+.b-header__email,
+.b-header__email:hover,
+.b-header__email:focus{
+  font-size: 20px;
+  font-weight: 300;
+  color: $f_default;
+  text-decoration: none;
+}
+
+.b-header__link{
+  background-color: $f_blue;
+  color: $f_white;
+  border: 1px solid transparent;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 3px 0;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 20px;
+
+  &:hover,
+  &:focus{
+    text-decoration: none;
+    color: $f_white;
+    background: $f_orange;
+  }
+}
+
+.b-header__menu{
+
+}

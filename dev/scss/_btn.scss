@@ -1,0 +1,44 @@
+.page_banner__btn{
+  transition: background-color linear .2s;
+  display: block;
+  text-align: center;
+  background-color: $f_orange;
+  padding: 10px 20px;
+  color: $f_white;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.40);
+
+  &:hover,
+  &:focus{
+    text-decoration: none;
+    color: $f_white;
+    background-color: $f_blue;
+  }
+}
+
+.callback_btn{
+  background-color: $f_blue;
+  color: $f_white;
+  border: 1px solid transparent;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 30px;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.40);
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $f_white;
+    background: $f_orange;
+  }
+}

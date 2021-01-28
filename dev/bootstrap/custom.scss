@@ -1,0 +1,12 @@
+@import "../scss/params";
+
+$container-max-widths: (
+        sm: $s_sm,
+        md: $s_md,
+        lg: $s_lg,
+        xl: $s_xl
+);
+//$theme-colors: ();
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

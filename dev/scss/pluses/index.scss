@@ -1,0 +1,50 @@
+.cloud__pluses{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../img/oe_uretek_toostushoone.1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h2, .h2{
+    color:$f_white;
+  }
+
+  *{
+    position: relative;
+    z-index: 2;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+  }
+}
+.cloud__pluses__container{
+  margin-bottom: 30px;
+}
+.cloud__pluses__img{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.cloud__pluses__title{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: $f_white;
+}
+.cloud__pluses__description{
+  text-align: center;
+  font-size: 16px;
+  color: $f_white;
+}

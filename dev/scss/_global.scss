@@ -1,0 +1,15 @@
+body {
+  @include ff_default;
+  color: $f_default;
+  line-height: 130%;
+  font-weight: 400;
+  font-size: 15px;
+  background-image: url("../img/background.png");
+}
+
+.cloud{
+  padding: 25px 25px;
+  background: $bg_white;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
